@@ -1,2 +1,2 @@
-# wisefix-website
-WiseFix repair company website - university project
+# FixWise-website
+FixWise repair company website : BIS project
