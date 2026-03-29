@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FixWise - Phone Repair</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <main class="service-page">
+    <section class="service-card">
+      <header class="back-section">
+        <a href="index.html" class="back-button">&#8249; Back</a>
+      </header>
+
+      <section class="image-section">
+        <img src="phone.jpg" alt="Phone repair image" class="service-image">
+      </section>
+
+      <section class="details-section">
+        <h1 class="service-title">Phone Repair</h1>
+        <p class="service-description">
+          We offer screen repair, battery repair, and data recovery services
+          with the highest quality and efficiency
+        </p>
+      </section>
+
+      <div class="issue-input">
+        <label for="issue-description" class="form-label">Describe your issue</label>
+        <input
+          type="text"
+          id="issue-description"
+          placeholder="Write a short description"
+          class="form-input"
+          required
+        >
+      </div>
+
+      <div class="dropdown">
+        <label for="issue-type" class="visually-hidden">Select type of issue</label>
+        <select id="issue-type" name="issue-type" class="form-select">
+          <option selected disabled>Select type of issue</option>
+          <option>Screen Replacement</option>
+          <option>Battery Replacement</option>
+          <option>Data Recovery</option>
+        </select>
+
+        <div class="quantity-selector" aria-label="Quantity selector">
+          <button type="button" class="quantity-button">-</button>
+          <span class="quantity-value">0</span>
+          <button type="button" class="quantity-button">+</button>
+        </div>
+      </div>
+
+      <footer class="cart-section">
+        <button type="button" class="cart-button">Add to Cart</button>
+        <p class="price">$20.75</p>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
