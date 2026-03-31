@@ -163,11 +163,7 @@ body {
   body {
     padding: 10px;
   }
-
-  .phone-frame {
-    width: 100%;
-    max-width: 360px;
-  }
+  
 }
 
 * {
@@ -371,4 +367,9 @@ body {
 .team-icon i {
   font-size: 3rem;
   color: #111;
+}
+html, body { 
+  margin: 0;
+  padding: 0;
+  background-color: pink;
 }
