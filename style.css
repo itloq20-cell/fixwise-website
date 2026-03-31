@@ -285,21 +285,7 @@ body {
   text-decoration: none;
   color: black;
 }
-.forgot-row {
-  text-align: right;
-  margin-top: -5px;
-  margin-bottom: 10px;
-}
 
-.forgot-password {
-  font-size: 0.8rem;
-  color: #7a8a90;
-  text-decoration: none;
-}
-
-.forgot-password:hover {
-  color: #165f63;
-}
 .team-text h2 {
   font-size: 1.05rem;
   font-weight: 600;
