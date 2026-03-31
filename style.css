@@ -10,13 +10,6 @@ body {
     background-color: #E2F0F0;
 }
 
-.phone-frame {
-  width: 100%;
-  min-height: 100hv;
-  background: #E2F0F0 ;
-  padding: 20px;
-}
-
 .app-screen {
   padding: 8px 4px 10px;
 }
