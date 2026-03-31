@@ -15,13 +15,9 @@
 }
 
 body {
-  background-color: var(--bg-dark);
-  font-family: 'Poppins', sans-serif;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
+  font-family: Arial, sans-serif;
+    background-color: #E2F0F0;
+    color: #141414;
 }
 
 .phone-frame {
