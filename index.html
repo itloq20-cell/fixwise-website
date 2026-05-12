@@ -1,76 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FixWise</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FixWise</title>
+  
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="2.css">
 </head>
+
 <body>
-  <div class="phone-frame">
-    <div class="notch"></div>
 
-    <div class="app-screen">
-      <header class="header">
-        <h1>FixWise</h1>
-        <p>Fast &amp; Transparent Smart Device Repair</p>
-      </header>
+    <header class="site-header">
 
-      <section class="search-row">
-        <div class="search-box">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <input type="text" placeholder="Search service..." />
-        </div>
+        <!-- Navbar -->
+        <nav class="navbar section-content">
 
-        <div class="header-icons">
-          <a href="signup.html"><i class="fa-solid fa-user"></i></a>
-          <a href="CartPage.html"><i class="fa-solid fa-cart-shopping"></i></a>
-        </div>
-      </section>
+            <!-- اسم الموقع معاد احتاجه استبدلته باللوقو -->
+            <h2 class="logo-text"></h2>
+            <!-- القائمةاللي فوق -->
+            <ul class="nav-menu">
+                <!-- زر الإغلاق -->
 
-      <a href="TechTeam.html" class="team-card">
-        <div class="team-text">
-          <h2>Meet Your Repair Team</h2>
-          <p>See the experts behind our 100% success rate.</p>
-        </div>
-        <div class="team-icon">
-            <i class="fa-solid fa-user"></i>
-        </div>
-      </a>
+             <button id="menu-close-button" class="fas fa-times"></button>
 
-      <section class="section-head">
-        <h3>Categories</h3>
-      </section>
+                <li class="nav-item">
+                   
+                </li>
 
-</section>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Our Teams</a>
+                </li>
 
-<section class="categories">
-  <a href="PhoneRepair.html" class="category-card">
-    <i class="fa-solid fa-mobile-screen-button"></i>
-  </a>
-  <a href="LaptopRepair.html" class="category-card">
-    <i class="fa-solid fa-laptop"></i>
-  </a>
-  <a href="TVRepair.html" class="category-card">
-    <i class="fa-solid fa-desktop"></i>
-  </a>
-</section>
+                <li class="nav-item">
+                    <a href="services1.html" class="nav-link">Services</a>
+                </li>
 
-      <section class="info-card">
-        <div class="info-text">
-          <h3>Certified Technicians Operating Under Local Trade Laws</h3>
-        </div>
-        <div class="info-icon">
-          <i class="fa-solid fa-gavel"></i>
-        </div>
-      </section>
-    </div>
-  </div>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
 
+            </ul>
+            <!-- زر فتحه -->
+            <button id="menu-open-button" class="fas fa-bars"></button>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- H Section -->
+        <section class="hero-section">
+
+            <div class="section-content hero-content">
+
+                <!-- اول نض -->
+                <div class="hero-details">
+
+                    <h2 class="title">
+                        Smart Device Repair
+                    </h2>
+
+                    <h1 class="subtitle">
+                        Fast & Reliable Device Repair
+                    </h1>
+
+                    <p class="description">
+                        We provide smart, fast, and transparent repair solutions for all your devices.
+                    </p>
+
+                    <!-- الأزرار -->
+                    <div class="buttons">
+
+                        <a href="signup.html" class="button get-started">
+                            Get Started
+                        </a>
+
+                        <a href="#" class="button contact-us">
+                            Contact Us
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="hero-image-wrapper">
+
+                    <img src="logofx.jpg"
+                         alt="FixWise Logo"
+                         class="hero-logo">
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+<script src="pa1.js"></script>
 </body>
+
 </html>
