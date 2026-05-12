@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* ألوان الثيم */
+:root {
+    --light-bg: #E2F0F0;
+    --main-color: #0B5B45;
+    --text-color: #36565F;
+    --white: #ffffff;
+}
+
+/* خلفية الصفحة */
+body {
+    background-color: var(--light-bg);
+    color: var(--text-color);
+}
+
+/* يشيل الخط من الروابط */
+a {
+    text-decoration: none;
+}
+
+/* الشاشة كاملة */
+.auth-screen {
+    min-height: 100vh;
+    background-color: var(--light-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* الصندوق العلوي */
+.auth-top-box {
+    width: 100%;
+    background-color: var(--white);
+    padding: 45px 20px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    box-shadow: 0 2px 12px rgba(54, 86, 95, 0.12);
+}
+
+/* مكان اللوقو */
+.auth-logo {
+    width:280px;
+    height: 130px;
+    object-fit: contain;
+}
+
+/* كرت تسجيل الدخول */
+.auth-card {
+    width: 90%;
+    max-width: 780px;
+    background-color: var(--white);
+    margin-top: 45px;
+    padding: 35px;
+    border-radius: 28px;
+    box-shadow: 0 10px 30px rgba(54, 86, 95, 0.14);
+}
+
+/* التابات */
+.auth-tabs {
+    display: flex;
+    gap: 32px;
+    border-bottom: 1px solid rgba(54, 86, 95, 0.18);
+    margin-bottom: 30px;
+}
+
+/* شكل التاب */
+.tab {
+    color: rgba(54, 86, 95, 0.65);
+    font-size: 22px;
+    padding-bottom: 12px;
+}
+
+/* التاب النشط */
+.tab.active {
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+/* عنوان Welcome */
+.auth-header h2 {
+    color: var(--main-color);
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+/* وصف تسجيل الدخول */
+.auth-header p {
+    color: var(--text-color);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* ترتيب الفورم */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* صندوق الإدخال */
+.input-box {
+    width: 100%;
+    background-color: #F8FBFB;
+    border: 2px solid rgba(54, 86, 95, 0.18);
+    border-radius: 18px;
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+}
+
+/* خانة الإدخال */
+.input-box input {
+    width: 100%;
+    height: 58px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+/* العين */
+.password-box i {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+/* زر تسجيل الدخول */
+.primary-btn {
+    height: 58px;
+    border: none;
+    border-radius: 18px;
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover للزر */
+.primary-btn:hover {
+    background-color: var(--text-color);
+}
+
+/*  Or sign in with */
+.social-text {
+    text-align: center;
+    margin: 35px 0 20px;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+/* ترتيب أزرار الدخول */
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* زر قوقل وآبل */
+.social-btn {
+    color: var(--text-color);
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+/* Hover لأزرار قوقل وبل */
+.social-btn:hover {
+    color: var(--main-color);
+    transform: scale(1.03);
+}
