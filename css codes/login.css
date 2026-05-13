@@ -188,5 +188,9 @@ a {
 }
 .back-icon{
     color:#0B5B45;
-    font-size:24px;
+    font-size:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
 }
