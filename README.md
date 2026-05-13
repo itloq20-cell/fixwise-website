@@ -24,7 +24,7 @@ Pages:
 - Booking details Page
 
 Tools Used:
-- HTML & CSS
+- HTML & CSS & JavaScript
 - FlutterFlow (used for UI/UX design only)
 
 Team Members:
