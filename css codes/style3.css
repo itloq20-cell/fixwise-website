@@ -347,8 +347,11 @@ body {
 }
 
 .fixwise-footer {
-background-color: #36565F; color: #D0E8E8;
-text-align: center: padding: 16px 24px; font-size:
+  background-color: #36565F; 
+  color: #D0E8E8;
+  text-align: center;
+  padding: 16px 24px;
+  font-size: 13px;
 }
 
 /* confirmation page */
