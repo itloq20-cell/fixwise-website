@@ -33,7 +33,7 @@ function clearCart() {
     cart = [];
     localStorage.removeItem("cart");
     renderCart();
-    cartMessage.textContent = "Your cart has been cleared.";
+    cartMessage.textContent = "Your cart is clear now.";
 }
 
 
@@ -131,6 +131,10 @@ function attachButtonEvents() {
         });
          }
          }
+
+clearCartBtn.addEventListener("click", function () {
+    clearCart();
+});
 
 confirmBtn.addEventListener("click", function (event) {
 
