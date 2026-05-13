@@ -6,7 +6,7 @@ const subTotalEl = document.getElementById("subTotal");
 const taxAmountEl = document.getElementById("taxAmount");
 const totalAmountEl = document.getElementById("totalAmount");
 const confirmBtn = document.getElementById("confirmBtn");
-
+const clearCartBtn = document.getElementById("clearCartBtn");
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 const taxRate = 0.15;
@@ -29,7 +29,12 @@ function saveCart() {
     localStorage.setItem("cart", JSON.stringify(cart));
 }
 
-
+function clearCart() {
+    cart = [];
+    localStorage.removeItem("cart");
+    renderCart();
+    cartMessage.textContent = "Your cart has been cleared.";
+}
 
 
 function renderCart() {
