@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FixWise Create Account</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css codes/login.css">
+</head>
+
+<body>
+
+  <!-- شاشة إنشاء الحساب كاملة -->
+  <main class="auth-screen">
+    <!-- الهيدر وفيه اللوقو -->
+    <div class="auth-top-box">
+      <img src="Assets/lofo.jpg" alt="FixWise Logo" class="auth-logo">
+
+    </div>
+
+    <section class="auth-card">
+
+      <!-- التابات -->
+      <div class="auth-tabs">
+        <a href="signup.html" class="tab active">Create Account</a>
+        <a href="login.html" class="tab">Log In</a>
+      </div>
+
+      <div class="auth-header">
+        <h2>Create Account</h2>
+        <p>Let’s get started by filling out the form below.</p>
+      </div>
+
+      <form class="auth-form">
+
+        <!-- خانة الإيميل -->
+        <div class="input-box">
+          <input type="email" id='signupEmail' placeholder="Email">
+        </div>
+          <div id="signupEmailMsg"></div>
+
+        <!--  الباسورد -->
+        <div class="input-box password-box">
+          <input type="password" id="signupPassword" placeholder="Password">
+          <i class="fa-regular fa-eye-slash"></i>
+        </div>
+          <div id="signupPasswordMsg"></div>
+
+        <!-- زر إنشاء  -->
+        <button type="button" class="primary-btn" onclick="validateSignup()">Get Started</button>
+
+      </form>
+
+      <p class="social-text">Or sign up with</p>
+
+      <div class="social-buttons">
+
+        <a href="#" class="social-btn">
+          <i class="fa-brands fa-google"></i>
+          Continue with Google
+        </a>
+
+        <a href="#" class="social-btn">
+          <i class="fa-brands fa-apple"></i>
+          Continue with Apple
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+<script src="JS codes/losi.js"></script>
+</body>
+</html>
