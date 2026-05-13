@@ -34,7 +34,7 @@ a {
 }
 
 /* الصندوق العلوي */
-.auth-top-box {
+/*.auth-top-box {
     width: 100%;
     background-color: var(--white);
     padding: 45px 20px 35px;
@@ -44,7 +44,7 @@ a {
     gap: 14px;
     box-shadow: 0 2px 12px rgba(54, 86, 95, 0.12);
     position: relative;
-}
+}*/
 
 /* مكان اللوقو */
 .auth-logo {
@@ -187,7 +187,7 @@ a {
   padding: 16px 24px;
   font-size: 13px;
 }
-.back-icon{
+/*.back-icon{
     color:#0B5B45;
     font-size:30px;
     display: flex;
@@ -197,4 +197,34 @@ a {
     position: absolute;
     left: 35px;
     top:50px;
+}
+/* الصندوق العلوي */
+.auth-top-box {
+    width: 100%;
+    background-color: var(--white);
+    padding: 45px 20px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    box-shadow: 0 2px 12px rgba(54, 86, 95, 0.12);
+    position: relative;
+}
+
+.back-icon {
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #0B5B45;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+/* حركة بسيطة عند المرور */
+.back-icon:hover {
+    color: #16A085;
 }
