@@ -187,17 +187,7 @@ a {
   padding: 16px 24px;
   font-size: 13px;
 }
-/*.back-icon{
-    color:#0B5B45;
-    font-size:30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s ease;
-    position: absolute;
-    left: 35px;
-    top:50px;
-}
+
 /* الصندوق العلوي */
 .auth-top-box {
     width: 100%;
@@ -224,7 +214,6 @@ a {
     transition: 0.3s ease;
 }
 
-/* حركة بسيطة عند المرور */
 .back-icon:hover {
     color: #16A085;
 }
